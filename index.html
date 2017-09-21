@@ -44,8 +44,20 @@
         		<label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
       		</div>
       		<div class="vr-size">
-      			<a href="#">Size <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-      			<a href="#">Qty <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+      			<select name="Size">
+					  <option hidden="" value="">Size</option>
+					  <option value="39">42</option>
+					  <option value="38">41</option>
+					  <option value="38">40</option>
+				</select>
+				<select name="Qty">
+					  <option hidden="" value="light">Qty</option>
+					  <option value="1">1</option>
+					  <option value="1">2</option>
+					  <option value="1">3</option>
+				</select>
+      			<!--<a href="#">Size <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+      			<a href="#">Qty <i class="fa fa-chevron-down" aria-hidden="true"></i></a>-->
       		</div>
       		<div class="vr-submit">
       			<button class="vr-submit-2" id="submit">Add to card</button>
